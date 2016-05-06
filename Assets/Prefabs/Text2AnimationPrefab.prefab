@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &169970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481248}
+  - 114: {fileID: 11465458}
+  - 114: {fileID: 11401916}
+  - 114: {fileID: 11437522}
+  m_Layer: 0
+  m_Name: Text2AnimationPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481248
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11401916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2836946fd8c8b427488425d35c96b064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11437522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c4f287159224c4fb6528f9117cd95c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11465458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea89e2e0f26d466bbcfe95b14077292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kaPrefab: {fileID: 145480, guid: 3d03d538e72ef4f2ea3fb90a808a0dd1, type: 2}
+  texts:
+  - kana: 12354
+    animPrefab: {fileID: 101094, guid: 78a9d0c6a009748a6b7b190e0fbb642b, type: 2}
+  - kana: 12356
+    animPrefab: {fileID: 195328, guid: fafa0402900c6443ba2b16b01e14dfcc, type: 2}
+  - kana: 12358
+    animPrefab: {fileID: 103418, guid: ab2bec2ee6c114999b0776d810ca5955, type: 2}
+  - kana: 12360
+    animPrefab: {fileID: 195806, guid: 60e402ceb24a44eeeab8effdd1fed9a3, type: 2}
+  - kana: 12362
+    animPrefab: {fileID: 123792, guid: 5e61d81bd4d4c4dcf85684871cf794bb, type: 2}
+  - kana: 12363
+    animPrefab: {fileID: 145480, guid: 3d03d538e72ef4f2ea3fb90a808a0dd1, type: 2}
+  - kana: 12365
+    animPrefab: {fileID: 124392, guid: 0f3a5344731da461f9c311c13f88667e, type: 2}
+  - kana: 12367
+    animPrefab: {fileID: 140240, guid: 27f13cc9ba32544ff810b0224c976802, type: 2}
+  - kana: 12369
+    animPrefab: {fileID: 117934, guid: c09b2b9916ddb44af94f8d1e54c9f643, type: 2}
+  - kana: 12371
+    animPrefab: {fileID: 155648, guid: bc4ad8d6ba0cf4888be987e9d78d2fb1, type: 2}
+  - kana: 12373
+    animPrefab: {fileID: 168610, guid: b5260cbb533824d34b8e897682bdd22f, type: 2}
+  - kana: 12375
+    animPrefab: {fileID: 157280, guid: cf862582058554eb585f80aea196c5f2, type: 2}
+  - kana: 12377
+    animPrefab: {fileID: 108950, guid: b9459beff012549d791cb5aa147a9309, type: 2}
+  - kana: 12379
+    animPrefab: {fileID: 145922, guid: 1a1def1a59c7a4e91a3b463e97d97fe5, type: 2}
+  - kana: 12381
+    animPrefab: {fileID: 146066, guid: 8e7a018ed198f4e298ef642f89505d2a, type: 2}
+  - kana: 12383
+    animPrefab: {fileID: 129572, guid: 6c60b650462bb4ddcafd73a74aa2f77e, type: 2}
+  - kana: 12385
+    animPrefab: {fileID: 132796, guid: c56a703baf1af4cf3b6bf210aeeb6cc4, type: 2}
+  - kana: 12388
+    animPrefab: {fileID: 156416, guid: ffefaf2e6fc854424970c96606a2c13b, type: 2}
+  - kana: 12390
+    animPrefab: {fileID: 163518, guid: fa4d823d7830b4fbc85993aefca7f616, type: 2}
+  - kana: 12392
+    animPrefab: {fileID: 116664, guid: a7f4bea04b47e4ffd93e5058a6f03efe, type: 2}
+  - kana: 12394
+    animPrefab: {fileID: 194972, guid: c96c2c7e0866646bda4b2b2a40827b20, type: 2}
+  - kana: 12395
+    animPrefab: {fileID: 150954, guid: 4cd6334ee28494cbda3681b452e56114, type: 2}
+  - kana: 12396
+    animPrefab: {fileID: 104324, guid: de294a7219b0e4775b7e110cf84f4742, type: 2}
+  - kana: 12397
+    animPrefab: {fileID: 125758, guid: aa63351f90cf84c42bd48d165b4ac3f5, type: 2}
+  - kana: 12398
+    animPrefab: {fileID: 111516, guid: 231e2f995106a48699cbd5cdbf8309a0, type: 2}
+  - kana: 12399
+    animPrefab: {fileID: 135114, guid: 736034f03873a428288ae4bae2472a52, type: 2}
+  - kana: 12402
+    animPrefab: {fileID: 187042, guid: 42352a9d07751432d8384f5e772b0333, type: 2}
+  - kana: 12405
+    animPrefab: {fileID: 163320, guid: 34597dbd65aa84abfb04caec2d05d36a, type: 2}
+  - kana: 12408
+    animPrefab: {fileID: 132542, guid: a6929980e9fee48e1b491e215af6db46, type: 2}
+  - kana: 12411
+    animPrefab: {fileID: 102436, guid: 2df2a604e845342f5adfc7df9614701f, type: 2}
+  - kana: 12414
+    animPrefab: {fileID: 194550, guid: 8e5952a248339164cba199a2173c7816, type: 2}
+  - kana: 12415
+    animPrefab: {fileID: 184784, guid: 9dcd72a85a780fe47908396285f88c6a, type: 2}
+  - kana: 12416
+    animPrefab: {fileID: 159912, guid: ffe22e8c31ea60e40863ce169ab8de97, type: 2}
+  - kana: 12417
+    animPrefab: {fileID: 149974, guid: abed5d14b661538468f3ac720de00c07, type: 2}
+  - kana: 12418
+    animPrefab: {fileID: 169194, guid: d47391d266ae1194ca4c94d1cc733081, type: 2}
+  - kana: 12420
+    animPrefab: {fileID: 177582, guid: 8c50d7d6097a24f8d9f921469b856a18, type: 2}
+  - kana: 12422
+    animPrefab: {fileID: 118084, guid: 92edec7dac95e47daa2246bf1f906744, type: 2}
+  - kana: 12424
+    animPrefab: {fileID: 156742, guid: 30fbd9af13dee4b888dc46b6e6fa2c98, type: 2}
+  - kana: 12431
+    animPrefab: {fileID: 180122, guid: accd13bb837dc4fcc893c37f81e53758, type: 2}
+  - kana: 12434
+    animPrefab: {fileID: 175996, guid: 902f042bea3fa420abb849b0a5dfc01d, type: 2}
+  - kana: 12435
+    animPrefab: {fileID: 132880, guid: 2c8c718222b1e4566a2502be320d82db, type: 2}
+  - kana: 12364
+    animPrefab: {fileID: 145480, guid: 3d03d538e72ef4f2ea3fb90a808a0dd1, type: 2}
+  - kana: 12366
+    animPrefab: {fileID: 0}
+  - kana: 12368
+    animPrefab: {fileID: 0}
+  - kana: 12370
+    animPrefab: {fileID: 0}
+  - kana: 12372
+    animPrefab: {fileID: 0}
+  - kana: 12384
+    animPrefab: {fileID: 0}
+  - kana: 12386
+    animPrefab: {fileID: 0}
+  - kana: 12389
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12393
+    animPrefab: {fileID: 0}
+  - kana: 12400
+    animPrefab: {fileID: 0}
+  - kana: 12403
+    animPrefab: {fileID: 0}
+  - kana: 12406
+    animPrefab: {fileID: 0}
+  - kana: 12409
+    animPrefab: {fileID: 0}
+  - kana: 12412
+    animPrefab: {fileID: 0}
+  - kana: 12425
+    animPrefab: {fileID: 184854, guid: 950fd1d9dc2a7e14f85df249b4a31c29, type: 2}
+  - kana: 12426
+    animPrefab: {fileID: 142100, guid: f5c4e471241dd0a4eb3021fc1b26521a, type: 2}
+  - kana: 12427
+    animPrefab: {fileID: 137396, guid: f17f43f56e0312245be304a8e6b1283a, type: 2}
+  - kana: 12428
+    animPrefab: {fileID: 153622, guid: 4362fa338b3acd943baced6c8ab834c5, type: 2}
+  - kana: 12429
+    animPrefab: {fileID: 158266, guid: e90880453a856c741a252f540f406f9d, type: 2}
+  - kana: 12387
+    animPrefab: {fileID: 156416, guid: ffefaf2e6fc854424970c96606a2c13b, type: 2}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+  - kana: 12391
+    animPrefab: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: texts.Array.size
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kaPrefab
+      value: 
+      objectReference: {fileID: 120060, guid: 9505b20f9534f4e5a9c8aca78224da56, type: 2}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[5].animPrefab
+      value: 
+      objectReference: {fileID: 120060, guid: 9505b20f9534f4e5a9c8aca78224da56, type: 2}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[56].kana
+      value: 12425
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[57].kana
+      value: 12426
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[58].kana
+      value: 12427
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[59].kana
+      value: 12428
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[60].kana
+      value: 12429
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[38].animPrefab
+      value: 
+      objectReference: {fileID: 180122, guid: accd13bb837dc4fcc893c37f81e53758, type: 2}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[39].animPrefab
+      value: 
+      objectReference: {fileID: 175996, guid: 902f042bea3fa420abb849b0a5dfc01d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: texts.Array.data[40].animPrefab
+      value: 
+      objectReference: {fileID: 132880, guid: 2c8c718222b1e4566a2502be320d82db, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 169970}
+  m_IsPrefabParent: 1
