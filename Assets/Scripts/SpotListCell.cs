@@ -14,7 +14,8 @@ public class SpotListCell : MonoBehaviour {
 	
 	}
 
-	public void onClick () {
+	public void OnClick () {
+		Debug.Log("SpotListCell OnClick");
 		SceneManager.LoadScene ("trip");
 	}
 }
