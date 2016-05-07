@@ -25,7 +25,7 @@ public class ChageScene : MonoBehaviour
 		Sphere100_5.SetActive(false);
 		Sphere100_6.SetActive(false);
 		*/
-		StartCoroutine(Scene_Ch());
+		//StartCoroutine(Scene_Ch());
 	}
 
 	void Update()
@@ -72,21 +72,21 @@ public class ChageScene : MonoBehaviour
 		}
 		*/
 	}
-	IEnumerator Scene_Ch()
-	{
-		yield return new WaitForSeconds(15.0f);
+//	IEnumerator Scene_Ch()
+//	{
+		//yield return new WaitForSeconds(15.0f);
 		//GetComponent<Renderer>().material.mainTexture = Haikei1;
-		Sphere100.SetActive(false);
-		Sphere100_1.SetActive(true);
-		yield return new WaitForSeconds(15.0f);
-		Sphere100_1.SetActive(false);
-		Sphere100_2.SetActive(true);
-		yield return new WaitForSeconds(15.0f);
-		Sphere100_2.SetActive(false);
+		//Sphere100.SetActive(false);
+		//Sphere100_1.SetActive(true);
+		//yield return new WaitForSeconds(15.0f);
+		//Sphere100_1.SetActive(false);
+		//Sphere100_2.SetActive(true);
+		//yield return new WaitForSeconds(15.0f);
+		//Sphere100_2.SetActive(false);
 		//Sphere100_3.SetActive(true);
 		//yield return new WaitForSeconds(15.0f);
 		//Sphere100_3.SetActive(false);
-		Sphere100.SetActive(true);
+		//Sphere100.SetActive(true);
 		//Sphere100_4.SetActive(true);
 		//yield return new WaitForSeconds(15.0f);
 		//Sphere100_4.SetActive(false);
@@ -97,7 +97,7 @@ public class ChageScene : MonoBehaviour
 		//yield return new WaitForSeconds(15.0f);
 		//Sphere100_6.SetActive(false);
 		//Sphere100.SetActive(true);
-	}
+//	}
 
 		//yield return new WaitForSeconds(15.0f);
 		//Application.LoadLevel("hamba_VR_2");
