@@ -15,6 +15,6 @@ public class AreaListCell : MonoBehaviour {
 	}
 
 	public void onClick () {
-		SceneManager.LoadScene ("spotList");
+		SceneManager.LoadScene ("SpotList");
 	}
 }

@@ -5,11 +5,11 @@ using System.Collections;
 public class MenuManeger : MonoBehaviour
 {
 	public void OnClickAreaList() {
-		SceneManager.LoadScene ("areaList");
+		SceneManager.LoadScene ("AreaList");
 	}
 
 	public void OnClickSpotList() {
-		SceneManager.LoadScene ("spotList");
+		SceneManager.LoadScene ("SpotList");
 	}
 
 	/*

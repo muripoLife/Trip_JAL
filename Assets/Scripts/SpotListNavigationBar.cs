@@ -15,6 +15,6 @@ public class SpotListNavigationBar : MonoBehaviour {
 	}
 
 	public void OnClick() {
-		SceneManager.LoadScene ("areaList");
+		SceneManager.LoadScene ("AreaList");
 	}
 }

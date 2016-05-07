@@ -16,6 +16,6 @@ public class SpotListCell : MonoBehaviour {
 
 	public void OnClick () {
 		Debug.Log("SpotListCell OnClick");
-		SceneManager.LoadScene ("countdown");
+		SceneManager.LoadScene ("SettingDevice");
 	}
 }
