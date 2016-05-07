@@ -7,16 +7,22 @@ public class MenuManeger : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
-	
+	void Update()
+	{
+		/*
+		if (Input.GetMouseButton(0))
+		{
+			Application.LoadLevel("Trip");
+		}
+		*/
 	}
 
 
 	public void ButtonPush() {
 		Debug.Log("Button Push !!");
-
+		Application.LoadLevel("Trip");
 	}
 
 	public void SceneLoad () {
