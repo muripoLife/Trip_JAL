@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MenuManeger : MonoBehaviour
 {
+	public void OnClickAreaList() {
+		SceneManager.LoadScene ("areaList");
+	}
+
 
 	/*
 	public Button freeChoiceButton;
