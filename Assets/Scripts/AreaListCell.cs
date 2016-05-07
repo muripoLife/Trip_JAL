@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class NavigationBar : MonoBehaviour {
+public class AreaListCell : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +14,7 @@ public class NavigationBar : MonoBehaviour {
 	
 	}
 
-	public void OnClick() {
-		Debug.Log("Button click!");
+	public void onClick () {
+		SceneManager.LoadScene ("spotList");
 	}
 }
