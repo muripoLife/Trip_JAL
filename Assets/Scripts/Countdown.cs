@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class Countdown : MonoBehaviour {
-	private float time = 60;
+	private float time = 15;
 
 	void Start () {
 		//初期値60を表示
