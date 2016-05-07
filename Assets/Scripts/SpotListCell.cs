@@ -3,19 +3,17 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class SpotListCell : MonoBehaviour {
+	[SerializeField] GameObject spotButton;
+	public Vector3 spotButtonPosition;
 
-	// Use this for initialization
 	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		spotButtonPosition = spotButton.transform.position;
+		Debug.Log(spotButtonPosition);
 	}
 
 	public void OnClick () {
 		Debug.Log("SpotListCell OnClick");
+		Debug.Log("押されたよ~" + spotButtonPosition);
 		SceneManager.LoadScene ("SettingDevice");
 	}
 }
