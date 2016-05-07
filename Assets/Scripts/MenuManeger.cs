@@ -8,6 +8,9 @@ public class MenuManeger : MonoBehaviour
 		SceneManager.LoadScene ("areaList");
 	}
 
+	public void OnClickSpotList() {
+		SceneManager.LoadScene ("spotList");
+	}
 
 	/*
 	public Button freeChoiceButton;
