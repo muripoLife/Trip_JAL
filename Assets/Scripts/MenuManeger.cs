@@ -1,32 +1,34 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class MenuManeger : MonoBehaviour {
+public class MenuManeger : MonoBehaviour
+{
+
+	/*
+	public Button freeChoiceButton;
+	public Button sightSeeingButton;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start()
+	{
+		freeChoiceButton  = gameObject.GetComponent("FreeChoiceButton") as Button;
+		sightSeeingButton = gameObject.GetComponent("SightSeeingButton") as Button;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		/*
-		if (Input.GetMouseButton(0))
-		{
+		freeChoiceButton.onClick.AddListener(() => {
+			Debug.Log("freeChoiceButton Push !!");
 			Application.LoadLevel("Trip");
-		}
-		*/
+		});
+
+		sightSeeingButton.onClick.AddListener(() => {
+			Debug.Log("sightSeeingButton Push !!");
+			Application.LoadLevel("Trip");
+		});
+
 	}
-
-
-	public void ButtonPush() {
-		Debug.Log("Button Push !!");
-		Application.LoadLevel("Trip");
-	}
-
-	public void SceneLoad () {
-		
-	}
-
+	*/
 }
