@@ -7,4 +7,8 @@ public class TripManager : MonoBehaviour {
 	public string getTripName() {
 		return tripFile;
 	}
+
+	public void setTripName(string tripName) {
+		tripFile = tripName;
+	}
 }
