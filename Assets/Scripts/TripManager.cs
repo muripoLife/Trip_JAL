@@ -2,5 +2,5 @@
 using System.Collections;
 
 public class TripManager : MonoBehaviour {
-	public static string tripFile = "";
+	public static string tripFiled = "";
 }

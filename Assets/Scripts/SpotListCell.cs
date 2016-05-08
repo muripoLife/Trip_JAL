@@ -18,7 +18,7 @@ public class SpotListCell : MonoBehaviour {
 	}
 
 	public void OnClick(string tripFile) {
-		TripManager.tripFile = "file01";
+//		TripManager.tripFile = "file01";
 		SceneManager.LoadScene ("SettingDevice");
 	}
 }
