@@ -17,19 +17,11 @@ public class GM1 : MonoBehaviour
 		});
 	}
 
-	void OnGUI ()
-	{
-//		if (GUI.Button (new Rect (0, 88, 640, 1048), "GO")) {
-//			webViewObject.LoadURL (url);
-//			webViewObject.SetVisibility (false);
-//		}
-	}
-
 	public void onClick ()
 	{
 		Debug.Log ("OnClick");
 		webViewObject.LoadURL (url);
-		webViewObject.SetMargins (0, 88, 0, 0);
+		webViewObject.SetMargins (0, 24, 0, 0);
 		webViewObject.SetVisibility (true);
 
 		webViewObject.EvaluateJS (
