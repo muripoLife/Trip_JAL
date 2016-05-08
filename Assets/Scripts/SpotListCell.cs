@@ -16,4 +16,9 @@ public class SpotListCell : MonoBehaviour {
 		Debug.Log("押されたよ~" + spotButtonPosition);
 		SceneManager.LoadScene ("SettingDevice");
 	}
+
+	public void OnClick(string tripFile) {
+		TripManager.tripFile = "file01";
+		SceneManager.LoadScene ("SettingDevice");
+	}
 }
