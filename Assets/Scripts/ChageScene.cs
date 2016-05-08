@@ -18,22 +18,22 @@ public class ChageScene : MonoBehaviour
 		int num = 0;
 		switch (name)
 		{
-			case "Kinkakuji":
+			case "01":
 				return 0;
 				break;
-			case "ginkakuji":
+			case "02":
 				return 1;
 				break;
-			case "Arashiyama":
+			case "03":
 				return 2;
 				break;
-			case "Kyoto Tower":
+			case "04":
 				return 3;
 				break;
-			case "Ryoanji":
+			case "05":
 				return 4;
 				break;
-			case "Kiyomizu":
+			case "06":
 				return 5;
 				break;
 			default:
