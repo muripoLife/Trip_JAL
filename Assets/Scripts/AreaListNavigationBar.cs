@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class AreaListNavigationBar : MonoBehaviour {
@@ -14,7 +15,6 @@ public class AreaListNavigationBar : MonoBehaviour {
 	}
 
 	public void OnClick() {
-		Debug.Log("AreaListNavigationBar OnClick");
-//		Application.LoadLevel("");
+		SceneManager.LoadScene ("OpeningMenu");
 	}
 }
